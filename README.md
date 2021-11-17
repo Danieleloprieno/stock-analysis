@@ -65,8 +65,9 @@ In order to optomize code performance, references to ticker array by index posit
 ```
 
 In 2017, all stocks in the specified array experienced positive returns with the excepetion of TERP, which had an overall return of -7.2%.  2018 was a far worse year for all stocks in question; all experienced negative returns excpet for ENPH and RUN.  See screenshots below for anaysis outputs:
+
 ![Table of Results for 2017](/Resources/Stocks 2017.png)
-![Table of Results for 2018](/Resources/Stocks 2018.png)
+![Table of Results for 2018](/Resources/Stocks2018.png)
 
 Time tests indicate that the refactored code did perform, on average, about .25 or .30 secs faster than the inital code.  See screenshots below for refartoced code performance time for 2017 and 2018:
 
