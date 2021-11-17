@@ -62,7 +62,8 @@ In order to optomize code performance, references to ticker array by index posit
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
-    ```
+```
+
 In 2017, all stocks in the specified array experienced positive returns with the excepetion of TERP, which had an overall return of -7.2%.  2018 was a far worse year for all stocks in question; all experienced negative returns excpet for ENPH and RUN.  See screenshots below for anaysis outputs:
 ![Table of Results for 2017](/Resources/Stocks 2017.png)
 ![Table of Results for 2018](/Resources/Stocks 2018.png)
