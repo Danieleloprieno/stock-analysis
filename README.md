@@ -1,9 +1,9 @@
 # Refactored VBA Code for Stock Analysis
 
-##Overview
+## Overview
 An inital analysis of stock prices was conducted on historical stock data in order to inform future purchase decisions.  While inital results were promising, refactored code was created in order to optimize the code for larger data calls.  
 
-##Results
+## Results
 In order to optomize code performance, references to ticker array by index position were used to nest the loops of the code.  See excerpt below for details:
 
 ```
@@ -74,7 +74,7 @@ Time tests indicate that the refactored code did perform, on average, about .25 
 ![Time Test for 2017 Results](/Resources/Refactored 2017.png)
 ![Time Test for 2018 Results](/Resources/Refactored 2018.png)
 
-##Summary
+## Summary
 
 
 
