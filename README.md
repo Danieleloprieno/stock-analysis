@@ -78,6 +78,8 @@ Time tests indicate that the refactored code did perform, on average, about .25 
 
 ## Summary
 
+In general, the advantages of refactoring code are to streamline the code look and performance.  It helps make the code look clean and organized.  Disadvantages are that it may be risky when there is no test case.  Researchers should take care to test refactored code before applying permanetly to large appications; it could result in large scale error.
 
+The advantages of this refactored code is that it runs faster.  While the improvement over the intial code is small, when this code is applied on a larger scale (say, to the whole data set rather than a slice of 12), that improvement could result in drastically faster run times. 
 
 
